@@ -1,10 +1,10 @@
-package com.nippy.demo;
+package com.douyinlite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class DouyinLiteApplicationTests {
 
     @Test
     void contextLoads() {

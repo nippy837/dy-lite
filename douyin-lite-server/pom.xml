@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.nippy</groupId>
-    <artifactId>demo</artifactId>
+    <groupId>com.douyinlite</groupId>
+    <artifactId>douyin-lite-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>init Spring Boot</description>
+    <name>douyin-lite-server</name>
+    <description>Douyin-Lite 短视频后端服务</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,7 +81,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.nippy.demo.DemoApplication</mainClass>
+                    <mainClass>com.douyinlite.DouyinLiteApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
